@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — ZeTrip China Business Travel Consultancy</title>
+<meta name="description" content="Plan your business trip to China with ZeTrip. Tell us your dates and objectives and receive a tailored plan. Email zetrip.china@gmail.com.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://zetripchina.com/contact.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact — ZeTrip China">
+<meta property="og:description" content="Plan your business trip to China with ZeTrip.">
+<meta property="og:url" content="https://zetripchina.com/contact.html">
+<meta property="og:image" content="https://images.unsplash.com/photo-1749200465082-58dca6484023?w=1200&amp;q=80">
+<meta name="theme-color" content="#050A15">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&amp;family=Outfit:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="header scrolled" id="header">
+  <div class="container nav">
+    <a href="index.html" class="brand" data-testid="brand-logo"><img src="assets/logo.svg" alt="ZeTrip China logo"><span><b>ZeTrip</b> <span>China</span></span></a>
+    <nav class="nav-links">
+      <a href="index.html#about">Approach</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#destinations">Destinations</a>
+      <a href="index.html#testimonials">Clients</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a href="mailto:zetrip.china@gmail.com" class="btn btn-primary nav-cta" data-testid="nav-email-btn">Email us</a>
+    <button class="burger" id="burger" aria-label="Open menu" data-testid="burger-btn"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html#about"><span>01</span>Approach</a>
+  <a href="index.html#services"><span>02</span>Services</a>
+  <a href="index.html#destinations"><span>03</span>Destinations</a>
+  <a href="index.html"><span>04</span>Home</a>
+  <a href="contact.html"><span>05</span>Contact</a>
+</div>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="overline reveal" style="opacity:1;transform:none">Get in touch</p>
+    <h1 class="reveal" style="opacity:1;transform:none">Let's plan a trip that runs like clockwork.</h1>
+  </div>
+</section>
+
+<section class="container contact-wrap">
+  <div class="cinfo">
+    <p class="muted" style="max-width:44ch;margin-bottom:20px">Share your travel dates, cities and objectives. We reply within one business day with a tailored plan and a dedicated point of contact.</p>
+    <div class="block"><small>Email</small><a href="mailto:zetrip.china@gmail.com" data-testid="contact-email">zetrip.china@gmail.com</a></div>
+    <div class="block"><small>Phone</small><a href="tel:+351910297095" data-testid="contact-phone">+351 910 297 095</a></div>
+    <div class="block" style="border-bottom:1px solid var(--border)"><small>Languages</small><p>English &amp; Portuguese</p></div>
+  </div>
+
+  <div class="cform">
+    <div id="formAlert"></div>
+    <form action="contact.php" method="POST" id="contactForm" data-testid="contact-form">
+      <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div class="form-row two">
+        <div class="field"><input type="text" name="name" id="name" placeholder=" " required data-testid="input-name"><label for="name">Full name</label></div>
+        <div class="field"><input type="email" name="email" id="email" placeholder=" " required data-testid="input-email"><label for="email">Email</label></div>
+      </div>
+      <div class="form-row two">
+        <div class="field"><input type="text" name="company" id="company" placeholder=" " data-testid="input-company"><label for="company">Company</label></div>
+        <div class="field"><input type="tel" name="phone" id="phone" placeholder=" " data-testid="input-phone"><label for="phone">Phone</label></div>
+      </div>
+      <div class="field"><input type="text" name="dates" id="dates" placeholder=" " data-testid="input-dates"><label for="dates">Travel dates &amp; cities</label></div>
+      <div class="field"><textarea name="message" id="message" placeholder=" " rows="4" required data-testid="input-message"></textarea><label for="message">How can we help?</label></div>
+      <button type="submit" class="btn btn-primary" data-testid="submit-btn">Send enquiry
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      <p class="form-note">By sending, you agree to be contacted at the details provided. Your enquiry goes straight to zetrip.china@gmail.com.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <a href="index.html" class="brand"><img src="assets/logo.svg" alt="ZeTrip China logo"><span><b>ZeTrip</b> <span>China</span></span></a>
+        <p class="fabout">Business travel consultancy for executives and teams travelling to China. Arrive without friction.</p>
+      </div>
+      <div><h4>Explore</h4><ul>
+        <li><a href="index.html#about">Approach</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="index.html#destinations">Destinations</a></li>
+      </ul></div>
+      <div><h4>Contact</h4><ul>
+        <li><a href="mailto:zetrip.china@gmail.com">zetrip.china@gmail.com</a></li>
+        <li><a href="tel:+351910297095">+351 910 297 095</a></li>
+        <li><span class="muted">English &amp; Portuguese</span></li>
+      </ul></div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="year"></span> ZeTrip China. All rights reserved.</span>
+      <span>China Business Travel Consultancy</span>
+    </div>
+  </div>
+</footer>
+
+</html>

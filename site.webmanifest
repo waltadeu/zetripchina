@@ -1,0 +1,12 @@
+{
+  "name": "ZeTrip China",
+  "short_name": "ZeTrip",
+  "description": "Business travel consultancy for China.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050A15",
+  "theme_color": "#050A15",
+  "icons": [
+    { "src": "assets/logo.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

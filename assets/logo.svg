@@ -1,0 +1,6 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ZeTrip China">
+  <path d="M14 22 C20 15, 44 15, 50 22" stroke="#C5A059" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  <path d="M22 18 L32 10 L42 18" stroke="#4F83FF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M20 26 H44 L24 48 H46" stroke="#4F83FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="32" cy="10" r="1.6" fill="#C5A059"/>
+</svg>
